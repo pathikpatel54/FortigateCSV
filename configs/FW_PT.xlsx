@@ -1,0 +1,77 @@
+<!DOCTYPE html public "-//W3C//DTD HTML 4.0 Transitional//en" "http://www.w3.org/TR/html4/loose.dtd">
+   <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <base href="https://www.mailcontrol.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        
+        <link rel="stylesheet" href="https://www.mailcontrol.com/http-resources/bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="https://www.mailcontrol.com/http-resources/bootstrap/css/bootstrap-responsive.css" type="text/css">
+        <link rel="stylesheet" href="https://www.mailcontrol.com/http-resources/notification-pages/notification.css" type="text/css">
+        <!--[if IE ]>
+           <link rel="stylesheet" href="https://www.mailcontrol.com/http-resources/notification-pages/notification-ie.css" type="text/css">
+           <script src="https://www.mailcontrol.com/http-resources/head.js"></script>
+        <![endif]-->
+        <!--[if IE 6]>
+            <link rel="stylesheet" href="https://www.mailcontrol.com/http-resources/bootstrap/css/bootstrap-ie6.min.css" type="text/css">
+            <link rel="stylesheet" href="https://www.mailcontrol.com/http-resources/bootstrap/css/ie.css" type="text/css">
+            <link rel="stylesheet" href="https://www.mailcontrol.com/http-resources/notification-pages/notification-ie6.css" type="text/css">
+
+            <script src="https://www.mailcontrol.com/http-resources/notification-pages/jquery-1.4.2.min.js"></script>
+            <script src="https://www.mailcontrol.com/http-resources/ie6_joined_classes.js"></script>
+            <script>
+              var IEPNGFix = window.IEPNGFix || {};
+              IEPNGFix.blankImg = "https://www.mailcontrol.com/http-resources/iepngfix/blank.gif";
+            </script>
+            <script src="https://www.mailcontrol.com/http-resources/iepngfix/jquery.iepngfix.js"></script>
+        <![endif]-->
+        <style id="zzNOTIFICATION_CUSTOM_CSSxxCSSzz"></style>
+        <title id="zzNOTIFICATION_HTML_TITLExxPAGE_TITLEzz">Access Blocked</title>
+    </head>
+    <body class="loading" id="DEFAULT_RESPONSE_DENIED">
+        <div class="container" id="container">
+            <div class="row">
+                <div class="span10 offset1" id="notify">
+                    <div class="notify-title-box">
+                        <img id="title_icon" src="https://www.mailcontrol.com/http-resources/notification-pages/icons60/blocked.png" height="60" width="60" class="editable image zzNOTIFICATION_ICONxxIMAGEzz" />
+                        <span id="notify-title" class="editable text zzNOTIFICATION_TITLExxTEXTzz" >Access Blocked</span>
+                        <div id="titleBlink"></div>
+                    </div>
+                    <div class="notify-box">
+                        <div id="notify-content" class="editable block zzNOTIFICATION_CONTENTxxBLOCKzz"><div class="row">
+            <div class="span8 explanation">The Web site you requested is blocked by your organization.</div>
+      </div>
+      <div class="row firstName">
+          <div class="span1 name">URL</div>
+          <div class="span7 explanation">https://d.docs.live.net:443</div>
+      </div>
+      <div class="row lastName">
+          <div class="span1 name">Reason</div>
+          <div class="span7 explanation wrapURL">Matched categories:
+<DL class="category_list">
+<DT>Personal Network Storage and Backup</DT><DD>Sites that store personal files on Internet servers for backup or exchange.</DD>
+</DL></div>
+      </div>
+      <div class="row">
+         <div class="span8 explanation">For more information, see your organization's policy on acceptable use of the Internet.</div>
+      </div></div>
+                    </div>
+                    <div class="" id="footerRow" >
+                        <div id="footer" class="">
+                           <img src="https://www.mailcontrol.com/http-resources/notification-pages/triton-logo-blue.png" height="35" width="121" id="bottom-logo" class="editable image zzNOTIFICATION_BOTTOM_LOGOxxIMAGEzz"/>
+                           <span id="footer-text" class="editable text zzNOTIFICATION_FOOTERxxTEXTzz" ></span>
+                           <div class="clear-float"></div>
+                        </div>
+                        <div class="clear-float"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+        <script src="https://www.mailcontrol.com/http-resources/notification-pages/empty.js"></script>
+         <!--[if !(IE 6)]>
+            <script src="https://www.mailcontrol.com/http-resources/notification-pages/respond.src.js"></script>
+         <![endif]-->
+        <!-- __DEBUG_INFO__ -->
+    </body>
+</html>
